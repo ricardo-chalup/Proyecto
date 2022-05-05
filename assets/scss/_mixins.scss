@@ -1,0 +1,13 @@
+@mixin fontsize($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+
+.letraChica {
+    @include fontsize(1rem, 100);
+
+}
+
+.letraGrande {
+    @include fontsize(2rem, 700)
+}

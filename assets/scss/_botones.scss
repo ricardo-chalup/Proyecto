@@ -1,0 +1,26 @@
+.botones{
+    background-color: blueviolet;
+    color: aqua;
+    border-radius: 20px;
+    border: 1px solid black;
+
+    &:hover {
+        filter: opacity(85%);
+        
+        
+    }
+}
+
+.botonRojo {
+    @extend .botones;
+    background-color: red;
+    color: yellow,
+}
+
+.botonVerde{
+    @extend .botones;
+    background-color: rgb(17, 173, 17);
+    color:yellow
+
+
+}
